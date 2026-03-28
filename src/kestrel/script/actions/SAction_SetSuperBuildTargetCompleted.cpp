@@ -1,4 +1,4 @@
-#include "kestrel/script/actions/SetSuperBuildTargetCompleted.h"
+#include "kestrel/script/actions/SAction_SetSuperBuildTargetCompleted.h"
 
 extern volatile int bricktotal_superbuildtarget;
 
