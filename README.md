@@ -2,9 +2,9 @@
 
 [![Code Progress]][progress] [![Function Progress]][progress] [![Discord Badge]][discord]
 
-[Code Progress]: https://decomp.dev/Nintendocustom/Lego-City-Undercover-Decompilation/1.0.3.svg?mode=shield&measure=code&label=Code
+[Code Progress]: https://decomp.dev/projects/1065912392.svg?mode=shield&measure=code&label=Code&version=1.0.3
 
-[Function Progress]: https://decomp.dev/Nintendocustom/Lego-City-Undercover-Decompilation/1.0.3.svg?mode=shield&measure=matched_functions&label=Functions
+[Function Progress]: https://decomp.dev/projects/1065912392.svg?mode=shield&measure=matched_functions&label=Functions&version=1.0.3
 
 [progress]: https://decomp.dev/Nintendocustom/Lego-City-Undercover-Decompilation
 
