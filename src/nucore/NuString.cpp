@@ -22,3 +22,11 @@ char* NuStrChr(char* str, char c) {
     }
     return 0;
 }
+const char* NuStrChr(const char* str, char c) {
+    while (*str != '\0') {
+        if (*str == c)
+            return str;
+        str++;
+    }
+    return 0;
+}
