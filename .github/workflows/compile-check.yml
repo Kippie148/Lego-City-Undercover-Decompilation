@@ -37,6 +37,8 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.14'
+          cache: 'pip'
+          cache-dependency-path: .github/workflows/compile-check.yml
       - name: Set up python package dependencies
         run: pip install capstone colorama cxxfilt pyelftools watchdog python-Levenshtein toml
       - name: Set up cache for toolchain
