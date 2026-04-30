@@ -1,7 +1,7 @@
 #include "kestrel/script/actions/SAction_SetHint.h"
 
 const char* SAction_SetHint::GetName() const {
-    return "SetHin";
+    return "SetHint";
 }
 void SAction_SetHint::GetInputs(SCmdParams& params) const {
     params.SanityCheck();
