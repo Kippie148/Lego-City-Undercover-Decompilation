@@ -14,18 +14,22 @@ most of the time right away, especially for smaller functions.
 
 # How to decompile step by step
 
-1. Run `tools/check` to make sure the project is set up correctly.
-2. Pick a function or class to work on.
+1. Make sure to set up the project by following the instructions in [docs/BUILDING.md](docs/BUILDING.md).
+2. Run `tools/check` to make sure the project is set up correctly.
+3. Pick a function or class to work on.
     * Choose a function you understand or are interested in.
-3. Try to understand what the function does. You can use IDA Pro or Ghidra for this.
+4. Try to understand what the function does. You can use IDA Pro or Ghidra for this.
     * You can rename variables and use "Auto Fill In Structure" in Ghidra to make it easier to understand the function.
-4. Implement the function in C++.
+5. Implement the function in C++.
     * Try to stay close to the original code, but make sure it's readable and looks like a clean C++ implementation.
     * Make sure to not just copy-paste pseudocode from IDA/Ghidra.
-5. Build the project using `python3 tools/build.py`.
-6. Run `tools/check` to see if your implementation matches the original binary.
-7. If it doesn't match, try to understand why and fix your implementation.
-8. Once it matches, you can create a pull request to submit your changes.
+6. Build the project using `python3 tools/build.py`.
+7. Run `tools/check` to see if your implementation matches the original binary.
+8. If it doesn't match, try to understand why and fix your implementation.
+9. Once it matches, you can create a pull request to submit your changes.
+
+**Additional information and tips can be found on [botw.link](https://botw.link/contribute), which has a lot of
+useful information on how to approach decompilation and reverse engineering in general.**
 
 ## If you get stuck
 

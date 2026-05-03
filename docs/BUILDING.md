@@ -11,7 +11,8 @@ executable, which may take longer depending on your familiarity with homebrew an
 If you're using Windows, it's highly recommended to use WSL (Windows Subsystem for Linux) with an Ubuntu-like
 distribution for the best compatibility.
 Follow the [official Microsoft guide](https://learn.microsoft.com/en-us/windows/wsl/install) to set up WSL on your
-system. Once WSL is installed, you can follow the Linux instructions below within your WSL environment.
+system, or just run `wsl --install` in an elevated PowerShell terminal if you're on Windows 11.
+Once WSL is installed, you can follow the Linux instructions below within your WSL environment.
 Now you can go on with the steps below.
 
 ## 1. Set up dependencies
