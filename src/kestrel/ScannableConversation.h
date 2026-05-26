@@ -63,7 +63,6 @@ public:
     int GetId() const;
     const VuVec* GetPosition() const;
     float GetProximityValue() const;
-    void setProximityValue(float value);
     bool HasBeenFound() const;
     void SetFound(bool found);
     bool IsDetectedBy(CityPDA_ScannerCore::SceneCamera& camera) const;
